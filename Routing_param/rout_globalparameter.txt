@@ -1,0 +1,27 @@
+# INPUT FILE FOR THE OHIO BASIN.   
+# NAME OF FLOW DIRECTION FILE   
+./Routing_param/flowdirection.txt
+# NAME OF VELOCITY FILE   
+.false.   
+1
+# NAME OF DIFF FILE   
+.false.   
+1000  
+# NAME OF XMASK FILE   
+.true.   
+./Routing_param/mask.txt
+# NAME OF FRACTION FILE   
+.true.   
+./Routing_param/fraction.txt
+# NAME OF STATION FILE   
+./Routing_param/station_location.txt
+# PATH OF INPUT FILES AND PRECISION   
+./result/routing_
+4   
+# PATH OF OUTPUT FILES   
+./result_routing/
+# YEAR AND MONTH OF VIC OUTPUT TO ROUTE & ROUTED OUTPUT TO WRITE
+1988 1 1998 12
+1988 1 1989 12
+# NAME OF UNIT HYDROGRAPH FILE   
+./Routing_param/UH.txt
